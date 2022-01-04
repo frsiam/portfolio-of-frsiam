@@ -34,7 +34,7 @@ body{
   font-weight: 700;
   font-size: 18px;
 }
-section{
+.flexible-container{
   display: flex;
   margin-bottom: 100px;
 }
@@ -55,4 +55,29 @@ section{
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.dev-shadow{
+  width: 40%;
+  margin-left: 6%;
+  margin-right: 5%;
+  padding-left: 20px;
+  box-shadow: 10px 10px 20px goldenrod;
+  border-radius: 15px;
+  border-left: 10px solid;
+}
+.last-part{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#full-dev{
+  border-image: linear-gradient(orange,red);
+  border-image-slice: 1;
+}
+#baby-dev{
+  border-image: linear-gradient(green,pink);
+  border-image-slice: 4;
+}
+footer p{
+  text-align: center;
 }
