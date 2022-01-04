@@ -78,6 +78,10 @@ body{
   border-image: linear-gradient(green,pink);
   border-image-slice: 4;
 }
+footer{
+  background-color: goldenrod;
+  padding: 2px;
+}
 footer p{
   text-align: center;
 }
